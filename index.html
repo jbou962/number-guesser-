@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>numbah guessah</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="header-title">
+    <span class=span1>Number</span><span class="span2"> Guesser</span>
+    </div>
+  </header>
+    <p>guess a number from 1 to 100!!</p>
+  <form>
+    <input class="min-box" type="number" placeholder="minimum Guess">
+    <input class="max-box" type="number" placeholder="Maximum Guess"><br>
+    <button class="set-button">set range</button>
+  </form>
+
+  <section class="first-section" id="submitbox">
+    <input class="input-box" type="number" placeholder="your guess" id="guessinput">
+      <form>
+        <button class="guess-button btn" type="submit" id="submitbtn">Guess</button>
+        <button class="clear-button btn" id="clearbtn">Clear</button>
+      </form>
+  </section>
+
+  <section class="second-section">
+    <p class="last-guess-header">your last guess was</p>
+    <p class="user-last-guess">(8</p>
+    <p class="outputhigh"> <span class="indicator">...</span></p>
+  </section>
+
+  <form>
+    <button class="reset" id="resetbtn">Reset</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

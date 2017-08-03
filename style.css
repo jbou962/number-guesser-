@@ -1,0 +1,113 @@
+//*this is the header*//
+h1{
+  font-family: Open-Sans;
+  font-weight: bold;
+}
+
+.span1{
+  color: #ed458b;
+  /*font-family: open-sans;*/
+  font-size: 50px;
+}
+.span2{
+  color: #e6e7e8;
+  font-weight: light;
+  font-size: 50px;
+}
+
+header{
+  background-color: #404041;
+  text-align: center;
+  height: 90px;
+}
+
+.header-title {
+  padding-top: 10px;
+}
+p{
+
+  text-align: center;
+  /*font-family: sans-serif;*/
+}
+
+form{
+
+  text-align: center;
+}
+*{
+  font-family: "Open Sans", sans-serif;
+}
+.input-box {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/*.guess-button {
+  background-color: #929497;
+  border-radius: 50px;
+  width: 150px;
+  color: #ffffff;
+}*/
+.btn{
+  background-color: #929497;
+  border-radius: 50px;
+  width: 150px;
+  color: #ffffff;
+}
+/*.clear-button{
+  background-color: #929497;
+  border-radius: 50px;
+  width: 150px;
+  color: #ffffff;
+}*/
+.set-button{
+  background-color: #929497;
+  border-radius: 50px;
+  width: 150px;
+  color: #ffffff;
+}
+input{
+  color: green;
+}
+//* this is for the section with the output numbers and such*//
+section{
+
+  text-align: center;
+  margin: auto;
+}
+.first-section {
+  margin-top: 10px;
+}
+
+
+.second-section{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+output{
+  /*font-size: 100px;*/
+  margin: 45%;
+}
+
+.user-last-guess{
+    text-align: center;
+    font-size: 120px;
+    color: #eb008b;
+    margin: 0 auto;
+  }
+
+#submitbox{
+  text-align: center;
+}
+.reset{
+  text-align: center;
+  width: 300px;
+  background-color: #929497;
+  color: #ffffff;
+  border-radius: 50px;
+}
+button:hover{
+  background-color: #eb008b;
+}
